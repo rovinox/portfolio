@@ -1,11 +1,11 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("./components/background.png");
+  height: 5vh;
+  border: 1px red solid;
 }
 
 .landing-grid {
-  background-image: url("https://www.mercato.co.za/wp-content/uploads/2016/02/Mercato-home-portfolio-background.jpg");
+  background-image: url("./components/background.png");
   /* background: #833ab4;  
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
@@ -23,74 +23,42 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background:#00AA80;
   color: white;
   padding: 2em;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px rgb(139, 139, 139);
+    border-radius: 20px;
 }
 
 /* contact page css */
 
-.contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
-}
-
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: bold;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-  
-}
-
-.contact-list i {
-  font-size: 66px;
-  padding-right: 5rem;
-}
 
 
 /* contact page css */
 
 .avatar-img {
-  height: 250px;
-  margin-top: 70px;
+  height: 200px;
+  margin-top: 50px;
   border-radius: 50%;
   
   
 }
 
 .banner-text {
-  background-color: black;
+  background-color:black;
   opacity: .8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
+ 
+  
 }
 
+
 .banner-text h1 {
-  font-size: 66px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
@@ -109,20 +77,20 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
   margin: auto;
 }
 
 .social-links i {
-  color: white;
-  font-size: 5em;
+  
+  font-size: 3em;
   padding: 8px;
 }
 
 
 .skill-logo{
-  font-size: 70px;
+  font-size: 50px;
 }
 .fa-node{
   color: #8CC84B;
@@ -141,25 +109,27 @@ color: #1B73BA;
 .fa-js-square{
   color: #F0DB4F;
 }
+
 .redux{
   height: 65px;
   width: 65px;
   margin-bottom: 40px;
 }
 .sql{
-  max-width: 60px;
+  max-width: 55px;
   margin-bottom: 20px;
 }
+.fa-git-alt{
+  color: #F05033;
+}
 .my-name{
-  font-size: 60px;
+  font-size: 50px;
   color: aqua;
   font-family: 'Niconne', cursive;
+  
 }
 
-.fa-linkedin-in{
+.fa-linkedin{
 color: #0074B2;
 }
 
-.fa-github-square{
- 
-}

@@ -1,0 +1,4 @@
+.Card-Actions{
+    display: flex;
+    justify-content: space-around;
+}

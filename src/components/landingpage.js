@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import TextLoop from "react-text-loop";
+import {Link} from "react-router-dom"
+
+import "./landingpage.css"
 
 
 class Landing extends Component {
@@ -12,16 +16,41 @@ class Landing extends Component {
             <img
               src="https://rovinox3.s3.amazonaws.com/bucketFolder/1557503584256-lg.jpg"
               alt="avatar"
-              className="avatar-img animated zoomIn"
+              className="avatar-img animated zoomIn "
               />
-              <h3 className="my-name animated zoomIn">Neaj Mahmud</h3>
+              
               
 
             <div className="banner-text animated zoomIn	">
-              <h1 className="animated fadeInRightBig delay-.1s">Web Developer</h1>
+              
+              
+            <h1 className="loop animated fadeInRightBig">
               
 
-            <hr/>
+                <TextLoop 
+                interval={2000}
+                >
+                    <span>Hi I'm Neaj.</span>
+                    <span>A Web developer.</span>
+                    <span>I Love Coding.</span>
+                    <span>Soving problems.</span>
+                    <Link to="/contact">
+                    <span className="loop" >Let's Connect.</span>
+                    </Link>
+                    
+                    
+                    
+                </TextLoop>
+               
+            </h1>
+             
+           
+              
+
+            {/* <hr/> */}
+            <div className="rainbow">
+
+            </div>
 
           {/* <p>HTML/CSS | JavaScript | React | SQL | NodeJS | Express | MongoDB</p> */}
           <p className="skill-logo animated fadeInLeftBig delay-.1s" >
@@ -33,19 +62,21 @@ class Landing extends Component {
     <path d="M32.4 67.1c.1 3 2.6 5.4 5.6 5.4h.2c3.1-.1 5.5-2.7 5.4-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-.2 0-.5 0-.7.1-4.1-6.8-5.8-14.2-5.2-22.2.4-6 2.4-11.2 5.9-15.5 2.9-3.7 8.5-5.5 12.3-5.6 10.6-.2 15.1 13 15.4 18.3 1.3.3 3.5 1 5 1.5-1.2-16.2-11.2-24.6-20.8-24.6-9 0-17.3 6.5-20.6 16.1-4.6 12.8-1.6 25.1 4 34.8-.5.7-.8 1.8-.7 2.9z"/>
   </g>
 </svg> <i className ="fab fa-node skill-logo"></i> <img className="sql" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/540px-Postgresql_elephant.svg.png"/>
+<i className="fab fa-git-alt skill-logo"></i>
 </p>
           
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="https://github.com/rovinox" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-github-square animated fadeInUpBig delay-.1s"></i>
+          <a className="btn animated fadeInUpBig delay-.1s" href="https://github.com/rovinox" rel="noopener noreferrer" target="_blank">
+          <i className="fab fa-github-square"></i>
           </a>
 
           {/* Github */}
-          <a href="https://www.linkedin.com/in/neaj-mahmud-a35217185/" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-linkedin-in animated fadeInUpBig delay-.1s"></i>
+          <a className="btn animated fadeInUpBig delay-.1s" href="https://www.linkedin.com/in/neaj-mahmud-a35217185/" rel="noopener noreferrer" target="_blank">
+          <i className="fab fa-linkedin "></i>
+         
           </a>
 
           
