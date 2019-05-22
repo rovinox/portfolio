@@ -32,11 +32,11 @@ class Projects extends Component {
             <CardActions border className="Card-Actions">
             
              <a href="https://github.com/rovinox" rel="noopener noreferrer" target="_blank">
-             <button>GitHub</button>
+             <button className="btn-project" >GitHub</button>
              </a>
              
              <a href="https://rovinox.xyz" rel="noopener noreferrer" target="_blank">
-             <button>Website</button>
+             <button className="btn-project">Website</button>
              </a> 
              
             </CardActions>

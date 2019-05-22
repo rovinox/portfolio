@@ -1,11 +1,13 @@
 .header-color {
-  background-image: url("./components/background.png");
+   /* background-image: url("https://backgroundcheckall.com/wp-content/uploads/2018/10/animated-black-background-3.jpg"); */
+   
+   /* background: transparent; */
   height: 5vh;
-  border: 1px red solid;
+ 
 }
 
 .landing-grid {
-  background-image: url("./components/background.png");
+  /* background-image: url("./components/mainBackground.png"); */
   /* background: #833ab4;  
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
@@ -23,7 +25,7 @@
 
 /* Resume Page css */
 .resume-right-col {
-  background:#00AA80;
+  background:black;
   color: white;
   padding: 2em;
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
@@ -48,19 +50,27 @@
 
 .banner-text {
   background-color:black;
-  opacity: .8;
-  width: 75%;
-  margin: auto;
+  opacity: .7;
+  width: 60%;
+  margin:auto;
   border-radius: 10px;
  
   
 }
 
 
+
 .banner-text h1 {
   font-size: 40px;
   font-weight: bold;
   color: white;
+}
+@media(max-width:600px){
+  
+  .banner-text h1 {
+    font-size: 20px;
+    
+  }
 }
 
 .banner-text hr {
@@ -90,7 +100,7 @@
 
 
 .skill-logo{
-  font-size: 50px;
+  font-size: 70px;
 }
 .fa-node{
   color: #8CC84B;
@@ -111,12 +121,12 @@ color: #1B73BA;
 }
 
 .redux{
-  height: 65px;
-  width: 65px;
+  height: 70px;
+  width: 70px;
   margin-bottom: 40px;
 }
 .sql{
-  max-width: 55px;
+  max-width: 60px;
   margin-bottom: 20px;
 }
 .fa-git-alt{
