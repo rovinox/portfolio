@@ -9,7 +9,7 @@ import "./landingpage.css"
 class Landing extends Component {
   render() {
     return(
-      <div style={{width: '100%', margin: 'auto'}}>
+      // <div style={{width: '100%', margin: 'auto'}}>
        
         <Grid className="landing-grid">
         <div className="background-container">
@@ -39,9 +39,9 @@ class Landing extends Component {
                 interval={2000}
                 >
                     <span>Hi I'm Neaj.</span>
-                    <span>A Web developer.</span>
+                    <span>A Web Developer.</span>
                     <span>I Love Coding.</span>
-                    <span>Soving problems.</span>
+                    <span> And Solving Problems.</span>
                     <Link to="/contact">
                       <button className="loop">Let's Connect</button>
                     {/* <span className="loop" >Let's Connect.</span> */}
@@ -99,7 +99,7 @@ class Landing extends Component {
             </div>
           </Cell>
         </Grid>
-      </div>
+      // </div>
     )
   }
 }

@@ -25,7 +25,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Neaj Mahmud</h2>
             <h4 style={{color: 'grey'}}>Web Devoloper</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I am a full-Stack developer specializing in JavaScript, react and node just to name a few. I am passionate about creating complex applications. I love solving problems and tackle challenges thru the most efficient and creative path. Also, love pair programming and collaborating with other developers.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
             <p>Connecticut</p>
@@ -38,7 +38,7 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
 
-          <h2>Skills</h2>
+              <h2>Skills</h2>
               <Skills
                 schoolName="Front-End"
                 schoolDescription="HTML | CSS | JAVASCRIPT | REACT | REDUX | REACT HOOKS"
@@ -49,7 +49,7 @@ class Resume extends Component {
               />  
               <Skills
                 schoolName="Tools"
-                schoolDescription="GIT | SSH |  | WEBPACK"
+                schoolDescription="GIT | SSH | WEBPACK"
               />
 
                

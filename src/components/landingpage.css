@@ -62,30 +62,22 @@ background: #000
      background-color: black;
     color: white;
 }
-
-.heart-p {
-
-  color:red;
-  animation: pulse 1s infinite;
-  height: 100px;
-}
-@keyframes pulse{
-  0%{
-    transform: scale(0)
+@media(max-width:600px){
+  
+  .loop{
+    font-size: 20px;
+    margin-top: 10px;
+   
   }
-  15%{
-    transform: scale(1.25)
+  .btn{
+    
   }
-  25%{
-    transform: scale(1.15)
-  }
-  35%{
-    transform: scale(1.25)
-  }
-  100%{
-    transform: scale(1)
+  .btn i{
+   font-size: 40px;
   }
 }
+
+
 
 
 

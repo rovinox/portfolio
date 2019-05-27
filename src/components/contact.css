@@ -31,12 +31,13 @@ width: 60%;
   font-size: 20px;
 }
 .send{
-
+ 
+ margin-top: 20px;
   border-radius: 10px;
   border: 1px white solid;
   background: transparent;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
 }
 .send:hover{
   color: black;
@@ -156,7 +157,7 @@ width: 60%;
   box-sizing: border-box;
   overflow:hidden;
   box-shadow: 0 30px 50px rgba(82, 78, 78, 0.5);
-  border:2px solid #00aa80;
+  /* border:2px solid aqua; */
 
 
 }
@@ -182,7 +183,8 @@ width: 60%;
   top:15px;
   left:15px;
   right: 15px;
-  bottom: 15px;border: 2px solid #00aa80;
+  bottom: 15px;
+  border: 2px solid aqua;
 
   padding: 30px;
   text-align: center;

@@ -1,3 +1,14 @@
+.content{
+    background:rgba(19, 18, 18, 0.219);
+    height: 100vh;
+    
+    
+   
+}
+.card-img{
+    font-size: 100px;
+}
+
 .Card-Actions{
     display: flex;
     justify-content: space-around;
