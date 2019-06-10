@@ -68,11 +68,11 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2014}
+              startYear="Nov 2014 "
+              endYear="March 2019"
               jobtitle="General Manager"
               jobName="Papa John's"
-              jobDescription="Supervised up to 10 different employees. coordinate vendor activities. kept track of daily/weekly sales and motivating employees to increase sales."
+              
               />
              <hr style={{borderTop: '3px solid white'}} />
 
@@ -81,10 +81,17 @@ class Resume extends Component {
 
                 <Education
                     
-                    startYear={2019}
-                     endYear={2019}
+                    startYear="March 2019 "
+                     endYear="- June 2019"
                     schoolName="DEVMOUNTAIN - Dallas, TX"
                     schoolDescription="13 weeks Web development bootcamp"
+                />
+                <Education
+                    
+                    startYear="Oct 2012 "
+                     endYear="- Mar 2014"
+                    schooltitle="Housatonic Community College - Bridgeport, CT"
+                    schoolDescription="Computer Science"
                 />
               
               {/* <Skills

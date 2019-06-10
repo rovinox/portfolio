@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import TextLoop from "react-text-loop";
 import {Link} from "react-router-dom"
+import picture from "./NeajMahmud.jpg"
 
 import "./landingpage.css"
 
@@ -22,7 +23,7 @@ class Landing extends Component {
           <Cell col={12}>
             
             <img
-              src="https://rovinox3.s3.amazonaws.com/bucketFolder/1557503584256-lg.jpg"
+              src={picture}
               alt="avatar"
               className="avatar-img animated zoomIn "
               />

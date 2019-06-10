@@ -135,7 +135,7 @@ width: 60%;
   -ms-animation:move-background 150s linear infinite;
   -o-animation:move-background 150s linear infinite;
   -webkit-animation:move-background 150s linear infinite;
-  animation:move-background 50s linear infinite;
+  animation:move-background 10s linear infinite;
 }
 .moon{
   height: 70vh;

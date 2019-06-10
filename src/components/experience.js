@@ -11,7 +11,14 @@ class Experience extends Component {
         <Cell col={8}>
           <h4 style={{marginTop:'0px'}}>{this.props.jobtitle}</h4>
           <h6 style={{marginTop:'0px'}}>{this.props.jobName}</h6>
-          <p>{this.props.jobDescription}</p>
+          {/* <p>{this.props.jobDescription}</p> */}
+          <ul>
+            <li>Supervised up to 10 employee</li>
+            <li>Recruited and hired excellent restaurant staﬀ based on attitude and aptitude</li>
+            <li>Continually strive to develop your staﬀ in all areas of managerial and professional development</li>
+            <li>Excellence Communication skills</li>
+          </ul>
+
         </Cell>
       </Grid>
     )

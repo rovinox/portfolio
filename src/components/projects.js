@@ -20,7 +20,7 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
                <h2>Rovinox</h2>
-              <h5>An ecommerce site to buy or sell new or used household items</h5>
+              <h5>An E-commerce site to buy or sell new or used items</h5>
               <ul>
                 <li>Bcript.js to secure user login credentials and PostgreSQL to store them  </li>
                 <li>Aws s3 to store uploaded files </li>
@@ -33,11 +33,11 @@ class Projects extends Component {
             </CardText>
             <CardActions border className="Card-Actions">
             
-             <a href="https://github.com/rovinox" rel="noopener noreferrer" target="_blank">
+             <a href="https://github.com/rovinox/offer-up" rel="noopener noreferrer" target="_blank">
              <button className="btn-project" >GitHub</button>
              </a>
              
-             <a href="https://rovinox.xyz" rel="noopener noreferrer" target="_blank">
+             <a href="http://rovinox.xyz" rel="noopener noreferrer" target="_blank">
              <button className="btn-project">Website</button>
              </a> 
              
@@ -47,21 +47,41 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          {/* Project 2 */}
-          {/* <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+          <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px"}}>
+            <CardTitle style={{ height: '176px', background: 'url(https://rovinox3.s3.amazonaws.com/bucketFolder/1560188679430-lg.png) center / cover'}} >
+            </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+               <h2>TurboLog</h2>
+              <h5>How to keep track of your car maintenance history</h5>
+              <h6>react, material-ui, redux, node, express, bcrypt, react hooks</h6>
+              <ul>
+                <li>group project that was complated in two weeks</li>
+                <li>Worked heavily with the google map places and geocoding API</li>
+                <li>Led group in several breakout sessions regarding the best approach to challenges throughout the project </li>
+                <li>Entire project created in react hooks</li>
+                <li>Was built mobile-first as to more strongly appeal to the main demographic </li>
+                
+
+              </ul>
+              
             </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
+            <CardActions border className="Card-Actions">
+            
+             <a href="https://github.com/turbolog/turbo-log" rel="noopener noreferrer" target="_blank">
+             <button className="btn-project" >GitHub</button>
+             </a>
              
-              <Button colored>Live Demo</Button>
+             <a href="http://turbolog.xyz/#/" rel="noopener noreferrer" target="_blank">
+             <button className="btn-project">Website</button>
+             </a> 
+             
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               
             </CardMenu>
-          </Card> */}
+          </Card>
+
+         
 
           
           
