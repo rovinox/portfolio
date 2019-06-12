@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import TextLoop from "react-text-loop";
 import {Link} from "react-router-dom"
-import picture from "./NeajMahmud.jpg"
+import picture from "./NeajMahmud2.jpg"
 
 import "./landingpage.css"
 
@@ -40,7 +40,7 @@ class Landing extends Component {
                 interval={2000}
                 >
                     <span>Hi I'm Neaj.</span>
-                    <span>A Web Developer.</span>
+                    <span>A full-Stack Developer.</span>
                     <span>I Love Coding.</span>
                     <span> And Solving Problems.</span>
                     <Link to="/contact">

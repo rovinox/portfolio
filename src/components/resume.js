@@ -49,7 +49,7 @@ class Resume extends Component {
               />  
               <Skills
                 schoolName="Tools"
-                schoolDescription="GIT | SSH | WEBPACK"
+                schoolDescription="GIT | SSH "
               />
 
                

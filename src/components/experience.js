@@ -15,7 +15,7 @@ class Experience extends Component {
           <ul>
             <li>Supervised up to 10 employee</li>
             <li>Recruited and hired excellent restaurant staﬀ based on attitude and aptitude</li>
-            <li>Continually strive to develop your staﬀ in all areas of managerial and professional development</li>
+            <li>Continually strive to develop staﬀ in all areas of managerial and professional development</li>
             <li>Excellence Communication skills</li>
           </ul>
 
