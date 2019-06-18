@@ -20,13 +20,14 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
                <h2>Rovinox</h2>
-              <h5>An E-commerce site to buy or sell new or used items</h5>
+              <h5>Developed a user based E-commerce site to buy and sell products.</h5>
               <ul>
-                <li>Bcript.js to secure user login credentials and PostgreSQL to store them  </li>
-                <li>Aws s3 to store uploaded files </li>
-                <li>React and redux in the front-end to work with data </li>
-                <li>Stripe API to accept payment from user </li>
-                
+                <li>Bcript.js to secure user login credentials and PostgreSQL to store the data.</li>
+                <li>Aws s3 to store uploaded files. </li>
+                <li>React and redux in the front-end to work with data. </li>
+                <li>Stripe API to accept payment from user. </li>
+                <li>Implemented various Validation Controls for form validation and implemented custom validation controls using Object Oriented JavaScript. </li>
+                <li>Responsible for React UI and architecture.</li>
 
               </ul>
               
