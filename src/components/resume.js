@@ -3,6 +3,8 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Summery from "./Summery"
+import {Link} from "react-router-dom"
 import "./Resume.css"
 
 
@@ -35,9 +37,17 @@ class Resume extends Component {
             <p>neajmahmud230@gmail.com</p>
             
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+
+            <Link to="/contact">
+              <button className="loop">Let's Connect</button>
+            </Link>
+            
           </Cell>
           <Cell className="resume-right-col" col={8}>
+          <h2>Summery</h2>
+            <Summery/>
 
+            <hr style={{borderTop: '3px solid white'}} />
               <h2>Skills</h2>
               <Skills
                 schoolName="Front-End"

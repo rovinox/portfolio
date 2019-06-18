@@ -9,7 +9,7 @@ class Education extends Component {
           <p>{this.props.startYear}{this.props.endYear}</p>
         </Cell>
         <Cell col={8}>
-        <a href="https://github.com/rovinox" rel="noopener noreferrer" target="_blank">
+        <a href="https://devmountain.com/" rel="noopener noreferrer" target="_blank">
         <h4 style={{marginTop:'0px', color:'white'}}>{this.props.schoolName}</h4>
              </a>
              <h4 style={{marginTop:'0px', color:'white'}}>{this.props.schooltitle}</h4>
