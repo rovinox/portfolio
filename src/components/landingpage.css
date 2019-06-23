@@ -54,6 +54,7 @@ background: #000
 
 
  .loop{
+    padding-top: 15px;
     font-size: 30px;
     border-radius: 5px;
     cursor: pointer;
