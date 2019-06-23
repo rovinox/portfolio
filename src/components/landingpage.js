@@ -44,7 +44,7 @@ class Landing extends Component {
                     <span>I Love Coding.</span>
                     <span> And Solving Problems.</span>
                     <Link to="/contact">
-                      <button className="loop">Let's Connect</button>
+                      <button className="loop-btn">Let's Connect</button>
                     {/* <span className="loop" >Let's Connect.</span> */}
                     </Link>
                     

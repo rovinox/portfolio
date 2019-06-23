@@ -57,9 +57,16 @@ background: #000
     padding-top: 15px;
     font-size: 30px;
     border-radius: 5px;
-    cursor: pointer;
+    
 }
-.loop:hover{
+.loop-btn{
+ 
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loop-btn:hover{
      background-color: black;
     color: white;
 }

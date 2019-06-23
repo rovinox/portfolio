@@ -39,7 +39,7 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
 
             <Link to="/contact">
-              <button className="loop">Let's Connect</button>
+              <button className="loop-btn">Let's Connect</button>
             </Link>
             
           </Cell>
