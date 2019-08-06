@@ -27,7 +27,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Neaj Mahmud</h2>
             <h4 style={{color: 'grey'}}>Web Devoloper</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>I am a full-Stack developer specializing in JavaScript, react and node just to name a few. I am passionate about creating complex applications. I love solving problems and tackle challenges thru the most efficient and creative path. Also, love pair programming and collaborating with other developers.</p>
+            <p>I am a full-Stack developer specializing in JavaScript, react, and node just to name a few. I am passionate about creating complex applications. I love solving problems and tackling challenges through the most efficient and creative paths. I also love pair programming and collaborating with other developers.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
             <p>Connecticut</p>
@@ -44,7 +44,7 @@ class Resume extends Component {
             
           </Cell>
           <Cell className="resume-right-col" col={8}>
-          <h2>Summery</h2>
+          <h2>Summary</h2>
             <Summery/>
 
             <hr style={{borderTop: '3px solid white'}} />

@@ -15,7 +15,7 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px"}}>
+          <Card  shadow={5} style={{minWidth: '450', marginTop: ' 30px ',borderRadius: "10px"}}>
             <CardTitle style={{ height: '176px', background: 'url(https://rovinox3.s3.amazonaws.com/bucketFolder/1558990399545-lg.png) center / cover'}} >
             </CardTitle>
             <CardText>
@@ -48,7 +48,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
-          <Card  shadow={5} style={{minWidth: '450', margin: ' 30px auto',borderRadius: "10px"}}>
+          <Card  shadow={5} style={{minWidth: '450', marginTop: ' 30px',borderRadius: "10px"}}>
             <CardTitle style={{ height: '176px', background: 'url(https://rovinox3.s3.amazonaws.com/bucketFolder/1560188679430-lg.png) center / cover'}} >
             </CardTitle>
             <CardText>
