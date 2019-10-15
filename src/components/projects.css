@@ -23,3 +23,29 @@
     background-color: black;
     color: white;
   }
+
+
+
+
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("sea.jpg");
+    background-size: cover;
+    z-index: -1;
+  }
+  
+  .background .water {
+    position: absolute;
+    background-image: url("sea-map.png");
+    background-size: cover;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    filter: url("#turbulence");
+    z-index: -1;
+  }
