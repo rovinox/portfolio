@@ -75,16 +75,7 @@ class Resume extends Component {
                
                 
 
-              <h2>Experience</h2>
-
-            <Experience
-              startYear="Nov 2014 "
-              endYear="March 2019"
-              jobtitle="General Manager"
-              jobName="Papa John's"
               
-              />
-             <hr style={{borderTop: '3px solid white'}} />
 
                  <h2>Education</h2>
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./projects.css"
-import gif from "../components/gif/myGif.gif"
+import turbolog from "../components/gif/turbolog.gif"
 import {Card, CardTitle,CardText,CardActions,Button } from "react-mdl"
 export default class projects extends Component {
   render() {
@@ -13,10 +13,28 @@ export default class projects extends Component {
       </div>
       <div style={{display:"flex", justifyContent:"space-around", flexWrap:"wrap", }}>
 
-      <Card shadow={0} style={{width: '400px', height: '320px', marginTop:"20px", borderRadius:"15px"}}>
-        <CardTitle expand style={{color: 'red', background: `url(${gif}) center / cover`,}}></CardTitle>
+      <Card shadow={0} style={{width: '500px', height: '500px', marginTop:"20px", borderRadius:"15px", textAlign:"center"}}>
+        <CardTitle expand style={{color: 'red', background: `url(${turbolog}) center / cover`,}}></CardTitle>
+        <CardText >
+            <h4>Turbolog</h4>
+            <b>React, Material-UI, Redux, Node, Express, Bcrypt, google maps API</b>
+            <br/>
+                A app to keeps track of car maintenance history. Also you can find near by car mechanic shop and a forum section to ask any DYI qustion.
+       
+        </CardText>
+        <CardActions border>
+        <Button colored><a href="http://turbolog.xyz/#/" target="_blank">Website</a></Button>
+        <Button colored><a href="https://github.com/turbolog/turbo-log" target="_blank">github</a></Button>
+        </CardActions>
+      </Card>
+      <Card shadow={0} style={{width: '400px', height: '400px', marginTop:"20px", borderRadius:"15px"}}>
+        <CardTitle expand style={{color: '#fff', background: `url(${turbolog}) center / cover`,}}></CardTitle>
         <CardText>
+          
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Aenan convallis.
         </CardText>
         <CardActions border>
@@ -24,33 +42,38 @@ export default class projects extends Component {
         <Button colored>Website</Button>
         </CardActions>
       </Card>
-      <Card shadow={0} style={{width: '400px', height: '320px', marginTop:"20px", borderRadius:"15px"}}>
-        <CardTitle expand style={{color: '#fff', background: `url(${gif}) center / cover`,}}></CardTitle>
+      <Card shadow={0} style={{width: '400px', height: '400px', marginTop:"20px", borderRadius:"15px"}}>
+        <CardTitle expand style={{color: '#fff', background: `url(${turbolog}) center / cover`,}}></CardTitle>
         <CardText>
+          
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Aenan convallis.
         </CardText>
         <CardActions border>
-        <Button colored>Github</Button>
-        <Button colored>Website</Button>
+       
         </CardActions>
       </Card>
-      <Card shadow={0} style={{width: '400px', height: '320px', marginTop:"20px", borderRadius:"15px"}}>
-        <CardTitle expand style={{color: '#fff', background: `url(${gif}) center / cover`,}}></CardTitle>
+      <Card shadow={0} style={{width: '500px', height: '500px', marginTop:"20px", borderRadius:"15px"}}>
+        <CardTitle expand style={{color: '#fff', background: `url(${turbolog}) center / cover`,}}></CardTitle>
         <CardText>
+          
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         Aenan convallis.
-        </CardText>
-        <CardActions border>
-        <Button colored>Github</Button>
-        <Button colored>Website</Button>
-        </CardActions>
-      </Card>
-      <Card shadow={0} style={{width: '400px', height: '320px', marginTop:"20px", borderRadius:"15px"}}>
-        <CardTitle expand style={{color: '#fff', background: `url(${gif}) center / cover`,}}></CardTitle>
-        <CardText>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Aenan convallis.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Aenan convallis Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </CardText>
         <CardActions border>
         <Button colored>Github</Button>
