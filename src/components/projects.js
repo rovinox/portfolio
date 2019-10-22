@@ -36,7 +36,7 @@ export default class projects extends Component {
             <h4>Turbolog</h4>
             <b>React, Material-UI, Redux, Node, Express, Bcrypt, google maps API, PostgreSQL</b>
             <br/>
-                A app to keeps track of car maintenance history. Also you can find near by car mechanic shop and a forum section to ask any DYI qustions.
+                A app to keeps track of car maintenance history. Also you can find near by car mechanic shop and a forum section to ask any DYI questions.
        
         </CardText>
         <CardActions border>

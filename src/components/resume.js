@@ -27,7 +27,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Neaj Mahmud</h2>
             <h4 style={{color: 'grey'}}>Web Devoloper</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>I am a full-Stack developer specializing in JavaScript, react, and node just to name a few. I am passionate about creating complex applications. I love solving problems and tackling challenges through the most efficient and creative paths. I also love pair programming and collaborating with other developers.</p>
+            <p>It all started when I wanted to prank my friend by creating a fake virus on his computer. After doing some research, I can say my mission was accomplished (in a few lines of code) without knowing any coding. Instantly I fell in love with programming. Now I'm a full-stack developer. Passionate about creating complex applications.  Also, I like pair programming and collaborating with other developers.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
             <p>Connecticut</p>
@@ -55,7 +55,7 @@ class Resume extends Component {
               />  
               <Skills
                 schoolName="Back-End/Database"
-                schoolDescription="NODE.JS | EXPRESS | POSTGRESQL | AWS S3 | AUTHENTICATION "
+                schoolDescription="NODE.JS | EXPRESS | POSTGRESQL | AWS S3 | MongoDB|AUTHENTICATION "
               />  
               <Skills
                 schoolName="Tools"
