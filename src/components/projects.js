@@ -4,6 +4,7 @@ import turbolog from "../components/gif/turbolog.gif"
 import rovinox from "../components/gif/rovinox.gif"
 import portfolio from "../components/gif/portfolio.gif"
 import amacon from "../components/gif/amacon.gif"
+import slack from "../components/gif/slack.gif"
 import {Card, CardTitle,CardText,CardActions,Button } from "react-mdl"
 export default class projects extends Component {
   render() {
@@ -16,6 +17,20 @@ export default class projects extends Component {
       </div>
       <div style={{display:"flex", justifyContent:"space-around", flexWrap:"wrap", }}>
 
+      <Card shadow={0} style={{width: '400px', height: '450px', marginTop:"20px", borderRadius:"15px", textAlign:"center"}}>
+        <CardTitle expand style={{color: 'red', background: `url(${slack}) center / cover`,}}></CardTitle>
+        <CardText >
+            <h4>Clone Slack</h4>
+            <b>React, Redux, Firebase 5, Semantic UI React</b>
+            <br/>
+            You can create channels and send direct messages. Add emojis to your messages. Upload and display image messages.  
+       
+        </CardText>
+        <CardActions border>
+        <Button colored><a href="https://slack-clone-99f27.firebaseapp.com" target="_blank">Website</a></Button>
+        <Button colored><a href="https://github.com/rovinox/slack-clone.git" target="_blank">github</a></Button>
+        </CardActions>
+      </Card>
       <Card shadow={0} style={{width: '400px', height: '450px', marginTop:"20px", borderRadius:"15px", textAlign:"center"}}>
         <CardTitle expand style={{color: 'red', background: `url(${amacon}) center / cover`,}}></CardTitle>
         <CardText >
