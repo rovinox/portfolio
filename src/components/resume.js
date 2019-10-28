@@ -25,7 +25,7 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Neaj Mahmud</h2>
-            <h4 style={{color: 'grey'}}>Web Devoloper</h4>
+            <h4 style={{color: 'grey'}}>Web Developer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>It all started when I wanted to prank my friend by creating a fake virus on his computer. After doing some research, I can say my mission was accomplished (in a few lines of code) without knowing any coding. Instantly I fell in love with programming. Now I'm a full-stack developer. Passionate about creating complex applications.  Also, I like pair programming and collaborating with other developers.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
