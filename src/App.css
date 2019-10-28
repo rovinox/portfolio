@@ -100,12 +100,12 @@ border-radius: 50%;
   padding: 1em;
 }
 
-.social-links {
+/* .social-links {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   margin: auto;
-}
+} */
 
 .social-links i {
   

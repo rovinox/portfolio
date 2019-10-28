@@ -63,19 +63,19 @@ class Resume extends Component {
               />
 
                
-          
+            <hr style={{borderTop: '3px solid white'}} />
 
-                 
-
-
-          <hr style={{borderTop: '3px solid white'}} />
-
-           
-
+            <h2>Experience</h2>
+              <Experience
+              jobTitle="General Manager"
+              jobName="Papa john's Pizza"
+              startYear={2012}
+              endYear={2018}
+              />
                
                 
 
-              
+               <hr style={{borderTop: '3px solid white'}} />
 
                  <h2>Education</h2>
 
