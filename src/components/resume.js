@@ -5,38 +5,29 @@ import Experience from './experience';
 import Skills from './skills';
 import Summery from "./Summery"
 import {Link} from "react-router-dom"
-import "./Resume.css"
+
 
 
 class Resume extends Component {
   render() {
     return(
-      <div className="resume-cp">
+     
         
         <Grid>
           
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
-              {/* <img
-                src="https://rovinox3.s3.amazonaws.com/bucketFolder/1557503584256-lg.jpg"
-                alt="avatar"
-                style={{height: '200px'}}
-                 /> */}
-            </div>
+            
 
             <h2 style={{paddingTop: '2em'}}>Neaj Mahmud</h2>
             <h4 style={{color: 'grey'}}>Web Developer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            
             <p>It all started when I wanted to prank my friend by creating a fake virus on his computer. After doing some research, I can say my mission was accomplished (in a few lines of code) without knowing any coding. Instantly I fell in love with programming. Now I'm a full-stack developer. Passionate about creating complex applications.  Also, I like pair programming and collaborating with other developers.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            
             <h5>Location</h5>
             <p>Connecticut</p>
-            <h5>Phone</h5>
-            <p>(203) 979-8936</p>
-            <h5>Email</h5>
-            <p>neajmahmud230@gmail.com</p>
             
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            
+            
 
             <Link to="/contact">
               <button className="loop-btn">Let's Connect</button>
@@ -115,7 +106,7 @@ class Resume extends Component {
 
           </Cell>
         </Grid>
-      </div>
+      
     )
   }
 }
