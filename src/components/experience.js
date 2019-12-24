@@ -13,9 +13,10 @@ class Experience extends Component {
           <h6 style={{marginTop:'0px'}}>{this.props.jobName}</h6>
           {/* <p>{this.props.jobDescription}</p> */}
           <ul>
-            <li>Gained leadership skill and supervised up to 10 employee</li>
-            <li>Recruited and hired excellent restaurant staﬀ based on attitude and aptitude</li>
-            <li>Excellence Communication skills</li>
+            <li>Started as a delivery guy and made my way to general manager.</li>
+            <li>Gained leadership skill and supervised up to 10 employee.</li>
+            <li>Recruited and hired excellent restaurant staﬀ based on attitude and aptitude.</li>
+            <li>Excellence Communication skills.</li>
           </ul>
 
         </Cell>

@@ -46,7 +46,7 @@ class Resume extends Component {
               />  
               <Skills
                 schoolName="Back-End/Database"
-                schoolDescription="NODE.JS | EXPRESS | POSTGRESQL | AWS S3 | MongoDB|AUTHENTICATION "
+                schoolDescription="NODE.JS | EXPRESS | POSTGRESQL | AWS S3 | MongoDB| AUTHENTICATION "
               />  
               <Skills
                 schoolName="Tools"

@@ -12,9 +12,7 @@ export default class projects extends Component {
      
         
     <div>
-      <div className="background">
-      <div className="water"></div>
-      </div>
+     
       <div style={{display:"flex", justifyContent:"space-around", flexWrap:"wrap", }}>
 
       <Card shadow={0} style={{width: '400px', height: '450px', marginTop:"20px", borderRadius:"15px", textAlign:"center"}}>

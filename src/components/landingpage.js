@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import TextLoop from "react-text-loop";
 import {Link} from "react-router-dom"
-import picture from "./NeajMahmud2.jpg"
+import picture from "./gif/NeajMahmud.jpg" 
 
 import "./landingpage.css"
 

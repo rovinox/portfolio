@@ -77,7 +77,7 @@
       500px 200px,
       1000px,
       400px 260px;
-    animation: 50s para infinite linear;
+    animation: 100s para infinite linear;
     }
   
   @keyframes para {
