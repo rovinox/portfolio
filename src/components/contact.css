@@ -143,6 +143,7 @@ width: 60%;
   position: absolute;
   z-index: 3;
   right: 20px;
+  margin-top: 20px;
 }
 
 .box-b{
