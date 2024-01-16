@@ -5,6 +5,7 @@ import rovinox from "../components/gif/rovinox.gif";
 import portfolio from "../components/gif/portfolio.gif";
 import amacon from "../components/gif/amacon.gif";
 import slack from "../components/gif/slack.gif";
+import bootcamp from "../components/gif/Bootcamp.gif";
 import BlackCard from "./BlackCard";
 import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
 export default class projects extends Component {
@@ -12,6 +13,15 @@ export default class projects extends Component {
     super();
     this.state = {
       allCard: [
+        {
+          image: bootcamp,
+          appName: "Bootcamp",
+          tool: "payment, mongodb, express, axios, MUI",
+          description:
+            "It's a platform for students to learn coding, maintain grading, submit homework, pay tuition, and many more functionalities",
+          websiteUrl: "",
+          githubURL: "https://github.com/rovinox/rovinox-camp",
+        },
         {
           image: slack,
           appName: "Slack Clone",
@@ -35,7 +45,7 @@ export default class projects extends Component {
           appName: "Turbolog",
           tool: "React, Material-UI, Redux, Node, Express, Bcrypt, google maps API, PostgreSQL",
           description:
-            "Y A app to keeps track of car maintenance history. Also you can find near by car mechanic shop and a forum section to ask any DYI questions.",
+            "A app to keeps track of car maintenance history. Also you can find near by car mechanic shop and a forum section to ask any DYI questions.",
           websiteUrl: "",
           githubURL: "https://github.com/turbolog/turbo-log",
         },
@@ -76,7 +86,7 @@ export default class projects extends Component {
         <div
           style={{
             display: "flex",
-            justifyContent: "space-around",
+            justifyContent: "space-evenly",
             flexWrap: "wrap",
           }}
         >
@@ -87,35 +97,27 @@ export default class projects extends Component {
                 shadow={0}
                 style={{
                   color: "white",
-                  width: "400px",
-                  height: "450px",
-                  marginTop: "20px",
-                  textAlign: "center",
+                  width: "350px",
+                  height: "350px",
+
                 }}
               >
                 <CardTitle
                   expand
                   style={{
                     color: "red",
-                    background: `url(${slack}) center / cover`,
+                    background: `url(${item.image}) center / cover`,
                   }}
                 ></CardTitle>
-                <CardText style={{ backgroundColor: "black", width: "100%" }}>
-                  <h4 style={{ color: "white" }}>{item.appName}</h4>
-                  <b style={{ color: "white" }}>{item.tool}</b>
+                <CardText style={{ backgroundColor: "black",  padding:10, width: "100%" }}>
+                  <h3 style={{ color: "white" }}>{item.appName}</h3>
+                  <spam style={{ color: "white" }}> Libraries :  {item.tool}.</spam>
                   <br />
-                  <span style={{ color: "white" }}>{item.description}</span>
+                  <br />
+                  <span style={{ color: "white"}}>{item.description}</span>
                 </CardText>
                 <CardActions style={{ backgroundColor: "black" }}>
-                  <Button colored>
-                    <a
-                      href="https://slack-clone-99f27.firebaseapp.com"
-                      target="_blank"
-                    >
-                      {item.websiteUrl}
-                    </a>
-                  </Button>
-                  <Button colored>
+                  <Button >
                     <a href={item.githubURL} target="_blank">
                       {" "}
                       Github{" "}
@@ -126,14 +128,6 @@ export default class projects extends Component {
             </BlackCard>
           ))}
         </div>
-        {/* <svg>
-      <filter id="turbulence" x="0" y="0" width="1400" height="100%">
-      <feTurbulence id="sea-filter" numOctaves="3" seed="2" baseFrequency="0.02 0.05"></feTurbulence>
-      <feDisplacementMap scale="20" in="SourceGraphic"></feDisplacementMap>
-      <animate xlinkHref="#sea-filter" attributeName="baseFrequency" dur="60s" 
-      keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"/>
-      </filter>
-      </svg> */}
       </div>
     );
   }

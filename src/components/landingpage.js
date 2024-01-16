@@ -1,69 +1,72 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
 import TextLoop from "react-text-loop";
-import {Link} from "react-router-dom"
-import picture from "./gif/NeajMahmud.jpg" 
+import { Link } from "react-router-dom";
+import picture from "./gif/NeajMahmud.jpg";
 
-import "./landingpage.css"
-
+import "./landingpage.css";
+//import AwsLogo from './commons/AwsLogo';
 
 class Landing extends Component {
   render() {
-    return(
+    return (
       // <div style={{width: '100%', margin: 'auto'}}>
-       
-        <Grid className="landing-grid">
+
+      <Grid className="landing-grid">
         <div className="background-container">
-          <img  className="moon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt=""/>
+          <img
+            className="moon"
+            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png"
+            alt=""
+          />
           <div className="stars"></div>
           <div className="twinkling"></div>
           <div className="clouds"></div>
-          </div>
+        </div>
 
-          <Cell col={12}>
-            
-            <img
-              src={picture}
-              alt="avatar"
-              className="avatar-img animated zoomIn "
-              />
-              
-              
+        <Cell col={12}>
+          <img
+            src={picture}
+            alt="avatar"
+            className="avatar-img animated zoomIn "
+          />
 
-            <div className="banner-text animated zoomIn	">
-              
-              
+          <div className="banner-text animated zoomIn	">
             <h1 className="loop animated fadeInRightBig">
-              
-
-                <TextLoop 
-                interval={2000}
-                >
-                    <span>Hi I'm Neaj.</span>
-                    <span>A full-Stack Developer.</span>
-                    <span>I Love Coding.</span>
-                    <span> And Solving Problems.</span>
-                    <Link to="/contact">
-                      <button className="loop-btn">Let's Connect</button>
-                    {/* <span className="loop" >Let's Connect.</span> */}
-                    </Link>
-                    
-                    
-                    
-                </TextLoop>
-               
+              <TextLoop interval={2000}>
+                <span>Hi I'm Neaj.</span>
+                <span>A full-Stack Developer.</span>
+                <span>I Love Coding.</span>
+                <span> And Solving Problems.</span>
+                <Link to="/contact">
+                  <button className="loop-btn">Let's Connect</button>
+                  {/* <span className="loop" >Let's Connect.</span> */}
+                </Link>
+              </TextLoop>
             </h1>
-             
-           
-              
 
             {/* <hr/> */}
-            <div className="rainbow">
+            <div className="rainbow"></div>
 
-            </div>
-
-          {/* <p>HTML/CSS | JavaScript | React | SQL | NodeJS | Express | MongoDB</p> */}
-          <p className="skill-logo animated fadeInLeftBig delay-.1s" >
+            <p>
+              My programming journey began with an attempt to prank a friend
+              through the creation of a simulated computer virus, I researched
+              and achieved with a few lines of code and no prior coding
+              knowledge. This initial foray sparked a deep passion for
+              programming, leading me to evolve into a Software Engineer with a
+              penchant for crafting complex applications. I thrive on
+              collaborative efforts, particularly in pair programming, and enjoy
+              working alongside fellow developers. My enthusiasm for technology
+              transcends specific frameworks or languages, focusing instead on
+              adaptability and leveraging the most effective tools for each
+              project. Embracing a continuous learning mindset, I am open to
+              mastering any stack that proves optimal for achieving project
+              objectives. Languages: JavaScript, Typescript Frontend: React.js,
+              Next.js, Figma, Storybook Backend: Node.js, Express.js Databases:
+              MySQL, Postgres, DynamoDB, MongoDB Cloud Services: AWS, Azure
+            </p>
+            {/* <p className="skill-logo animated fadeInLeftBig delay-.1s" >
+            <AwsLogo/>
             <i className="fab fa-html5 skill-logo "></i> {" "}
             <i className="fab fa-css3-alt skill-logo "></i> {" "}
             <i className="fab fa-js-square skill-logo "></i>{" "} 
@@ -78,30 +81,34 @@ class Landing extends Component {
             <i className ="fab fa-node skill-logo"></i> {" "}
             <img className="sql" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/540px-Postgresql_elephant.svg.png"/> {" "}
             <i className="fab fa-git-alt skill-logo"></i>
-          </p>
-          
+          </p> */}
 
-        <div className="social-links">
+            <div className="social-links">
+              {/* LinkedIn */}
+              <a
+                className="btn animated fadeInUpBig delay-.1s"
+                href="https://github.com/rovinox"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-github-square"></i>
+              </a>
 
-          {/* LinkedIn */}
-          <a className="btn animated fadeInUpBig delay-.1s" href="https://github.com/rovinox" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-github-square"></i>
-          </a>
-
-          {/* Github */}
-          <a className="btn animated fadeInUpBig delay-.1s" href="https://www.linkedin.com/in/neaj-mahmud-a35217185/" rel="noopener noreferrer" target="_blank">
-          <i className="fab fa-linkedin "></i>
-         
-          </a>
-
-          
-
-        </div>
+              {/* Github */}
+              <a
+                className="btn animated fadeInUpBig delay-.1s"
+                href="https://www.linkedin.com/in/neaj-mahmud-a35217185/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <i className="fab fa-linkedin "></i>
+              </a>
             </div>
-          </Cell>
-        </Grid>
+          </div>
+        </Cell>
+      </Grid>
       // </div>
-    )
+    );
   }
 }
 
